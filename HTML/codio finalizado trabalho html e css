@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Trabalho de HTML e CSS 1</title>
+
+
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" href="file:///C:/Users/Marcos%20Rog%C3%A9rio/Desktop/html/HTML/tabalho%20HTML%20e%20CSS%201.html#"target="_blank"rel="noopener noreferrer">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.instagram.com/thiago_orp2/#"target="_blank"rel="noopener noreferrer">Criador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.viajali.com.br/lugares-lindos-no-brasil/"target="_blank"rel="noopener noreferrer">site de referencias </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.melhoresdestinos.com.br/lugares-para-viajar.html"target="_blank"rel="noopener noreferrer">Mais desse assunto para voce </a>
+        </li>
+      </ul>
+
+    <style>
+
+
+img{
+height: 400px;
+width: 900px;
+
+}
+
+p{font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+  text-decoration: none;
+}
+h1{ font-size: 60px;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: lowercases;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2{font-size: 40px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: lowercases;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <h1><br>Lugares para se visitar no Brasil</h1>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\Parque Nacional Chapada Diamantina.jpg"alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\monte roraima.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\dunas genipabu.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <div class="card" style="width: 70rem;">
+        <div class="card-body">
+          <h5 class="card-title">Decolar.com</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Compre sua passagem aerea</h6>
+          <p class="card-text">O melhor preço do mercado em passagens aereas </p>
+          <a href="https://play.google.com/store/apps/details?id=com.gm.decolar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"target="_blank"rel="noopener noreferrer">decolar.com</a>
+        </div>
+      </div>
+
+
+    <p><br><br>Quer conhecer os lugares mais lindos do Brasil?</p>
+ 
+    <p>Muitas pessoas acreditam que fazer turismo no Brasil é caro e que não compensa, <br>
+    o que acaba fazendo com que elas procurem outros países.</p>
+        
+    <p> Mas você sabia que o Brasil também tem locais incríveis e<br> bacanas para conhecer? 
+        
+    Dependendo do lugar, você não gasta tanto na viagem,<br> curte um tempo de qualidade e ainda 
+    viaja para lindas cidades que acabam ficando escondidas no turismo nacional.</p>
+        
+    <p>Somos notados pela beleza natural, culturas diferentes em cada estado, <br>
+     arquiteturas que surpreendem e lugares misteriosos e incríveis para conhecer. 
+    <br>Essa é a visão que os turistas têm do nosso país. </p>
+        
+    <p>Por isso, neste artigo, vamos te mostrar locais maravilhosos do<br> Brasil 
+    que merecem um tempo no seu roteiro de viagem.  Confira! </p>
+
+        <h2>1-Lagoa azul</h2>
+
+
+<img src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\lagoa azul.jpg">
+
+     <p> <br>A gruta da Lagoa Azul está localizada a aproximadamente 20km do centro de Bonito,
+    em Mato Grosso do
+    Sul. </p> 
+
+    <p> viajantes procuram conhecer a gruta da Lagoa Azul pelo fato de ser um monumento 
+    natural marcante <br>e uma das maiores cavidades inundadas do mundo. </p>
+        
+    <p> Se você não se assusta com isso e ainda tem o desejo 
+    de conhecer esse local misterioso,<br> com certeza vai pôr na sua lista a 
+    Lagoa Azul como um dos lugares mais lindos do Brasil. </p>
+        
+    <p> Ela é muito querida por viajantes. Para ir de Bonito 
+    até a gruta, você fará uma caminhada e, <br>de quebra, verá toda a beleza natural do caminho. </p>
+
+        <h2>2-Dunas Genipabu</h2>
+
+<img src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\dunas genipabu.jpg" alt="imagem Dunas Genioabu">
+
+       <p> <br>As Dunas Genipabu ficam a 25km de Natal e atraem turistas de todos os cantos
+        <br>O local conta com uma das praias mais bonitas do Brasil. As dunas compõem 
+        uma paisagem muito bela,<br> e temos certeza que você se sentirá em um oásis.</p>
+
+
+    <p>Lá, você pode passear de buggy, escorregar em pranchas de madeira nas 
+    dunas e ainda curtir a água, <br>que tem uma cor azul que você só encontra 
+    nos filmes. Também é possível mergulhar em Maracajaú, <br>descer de tirolesa e 
+    fazer outras atividades incríveis. </p>
+            
+    <p>E aí, já decidiu qual desses lugares você vai conhecer primeiro? 
+    <br>Não se esqueça de que, para conhecer bem os lugares mais lindos do 
+    Brasil,<br> é importante viajar com segurança e contar com um seguro viagem.
+    Afinal,<br> é bom ter certeza de que nada irá atrapalhar sua viagem dos sonhos!</p>
+
+            <h2>3-Floresta Amazonica</h2>
+
+<img src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\Amazonia.png.jpg" alt="imagem Floresta Amazonica">
+
+
+    <p><br>O turismo ecológico e sustentável está em alta. Por isso, 
+    conhecer a Floresta Amazônica,<br> um dos lugares mais lindos do Brasil,
+    não poderia ficar de fora dessa lista!</p>
+
+    <p>A Amazônia é a maior reserva natural brasileira e 
+    sem dúvida vai te proporcionar<br> uma experiência rica e
+    única, com a maior biodiversidade do mundo.</p>
+
+    <p>E engana-se quem pensa que a Amazônia diz respeito
+    apenas ao estado do Amazonas.<br> Grande parte desse paraíso 
+    está, sim, nessa unidade federativa.<br> Mas ela cobre grande parte 
+    do noroeste do Brasil e vai até a Colômbia,<br> Peru e ainda outros 
+    países da América do Sul.</p>
+
+<h2>4-Canoa Quebrada</h2>
+
+<img src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\canoa Quebrada.jpg" alt="imagem Canoa Quebrada">
+
+<p><br>E Canoa Quebrada, sugerimos a vila de pescadores, que é muito conhecida pela beleza rudimentar. <br>Lá, você 
+ conhecerá as dunas e as praias,<br> que estão localizadas a quilômetros de distância de Fortaleza.</p> 
+
+<p>Outra boa pedida com certeza é andar de jangada e curtir a natureza.<br> As praias parecem 
+    paradisíacas e são lindas; é um lugar que você não pode deixar de conhecer.</p>
+
+    <h2>5-Monte Roraima</h2>
+
+<img src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\monte roraima.jpg">
+    
+
+<p><br>O Monte Roraima fica localizado na fronteira entre Brasil, 
+    Venezuela e Guiana e é <br>considerado um dos lugares mais lindos do país e do mundo.<br>Pelo fato de ter uma paisagem muito bonita tanto no percurso 
+    quanto no ponto de chegada,<br> ele chama a atenção dos turistas.</p>
+        
+<p>A trilha que leva ao Monte pode durar até 10 dias de caminhada,<br> 
+mas toda a sua beleza fará valer a pena todo o esforço.</p>
+
+<h2>6-Parque Nacional Chapada Diamantina</h2>
+
+<img src="C:\Users\Marcos Rogério\Desktop\html\HTML\imagens\Parque Nacional Chapada Diamantina.jpg" alt="imagem Parque nacional Chapada Diamantina">
+
+<p><br>A Chapada Diamantina é uma região de serra, no meio do estado da Bahia. 
+Lá, você pode conhecer os famosos poços,<br> cachoeiras,<br> fazer trilhas e até escaladas.</p>
+
+<p>Ela também é considerada um dos lugares mais bonitos do Brasil,<br> 
+    com seus poços de águas azuis e <br>cachoeiras de águas cristalinas. </p>
+
+<p>A Chapada Diamantina é destino obrigatório para aventureiros e 
+fãs do ecoturismo. O local encanta e atrai muitos turistas,<br> inclusive 
+brasileiros, <br>que não tinham ideia 
+de que existe um lugar tão belo aqui no Brasil.</p>
+
+
+<div class="card" style="width: 70rem;">
+    <div class="card-body">
+      <h5 class="card-title">Decolar.com</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Compre sua passagem aerea</h6>
+      <p class="card-text">O melhor preço do mercado em passagens aereas </p>
+      <a href="https://play.google.com/store/apps/details?id=com.gm.decolar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"target="_blank"rel="noopener noreferrer">decolar.com</a>
+    </div>
+  </div>
+
+
+</body>
+</html>
